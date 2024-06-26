@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class LevelOder_traversal {
 //level order || breadth-first
-
+//queue is used cos of its fifo structure
     public void levelTraversal(Main_Bin_Tree.TreeNode root){
         if(root == null)return;
         Queue<Main_Bin_Tree.TreeNode> queue=new LinkedList<>();
